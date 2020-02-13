@@ -1,1 +1,3 @@
 /node_modules
+
+/loader/using-babel-loader/node_modules
