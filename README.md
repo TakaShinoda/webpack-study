@@ -9,3 +9,6 @@
 
 ### using-sass-loader
 - scssファイルをバンドルしたファイルの出力
+    - sass-loader
+    - css-loader
+    - style-loader
