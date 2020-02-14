@@ -1,7 +1,6 @@
 # webpack-study
 
-## getting-started-webpack
-- webpackを使ってモジュールをバンドルするサンプル
+
 
 ## loader
 ### using-babel-loader
