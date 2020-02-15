@@ -23,6 +23,7 @@ module.exports = {
         include: path.resolve(__dirname, 'src/scss'),
         // 利用するローダー
         // sass-loader css-loader style-loader の順で実行される
+        // loaderを複数使用したい場合がuse
         use: [
           // HTML に、style-loader で変換した CSS のスタイルが記述された <style> タグを追加する
           'style-loader',
@@ -38,6 +39,7 @@ module.exports = {
         // ローダーの処理対象となるディレクトリ
         include: path.resolve(__dirname, 'src/images'),
         // 利用するローダー
+        // 利用するloaderが一つの場合はuseを省略してloader
         loader: 'url-loader',
         options: {
           // 画像のファイルサイズが 8 KB（8 * 1024 = 8192）以上だったら DataURL に変換せずに出力する
