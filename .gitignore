@@ -1,5 +1,1 @@
-/node_modules
-/loader/using-babel-loader/node_modules
-/loader/using-sass-loader/node_modules
-/loader/using-url-loader/node_modules
-/loader/using-file-loader/node_modules
+**/node_modules
