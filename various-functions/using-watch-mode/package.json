@@ -1,0 +1,11 @@
+{
+  "name": "using-watch-mode",
+  "scripts": {
+    "dev": "webpack --watch",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}
