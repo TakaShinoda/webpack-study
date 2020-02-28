@@ -1,0 +1,13 @@
+{
+  "name": "using-webpack-merge",
+  "scripts": {
+    "dev": "webpack --config webpack.dev.config.js",
+    "build": "webpack --config webpack.prod.config.js"
+  },
+  "devDependencies": {
+    "terser-webpack-plugin": "^2.3.5",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-merge": "^4.2.2"
+  }
+}
