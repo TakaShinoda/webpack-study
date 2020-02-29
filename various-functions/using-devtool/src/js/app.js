@@ -1,3 +1,3 @@
-import log from './modules/log';
+import message from './modules/message';
 
-log('Hello webpack!!');
+message('Hello world!!');
