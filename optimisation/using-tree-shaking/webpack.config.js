@@ -4,6 +4,7 @@ const path = require('path');
 
 module.exports = {
   // モードの設定（モードを指定しないとwebpack実行時に警告が出る）
+  // productionモードで実行すればTree Shakingが有効になる
   mode: 'production',
   // エントリーポイントの設定
   entry: './src/js/app.js',
