@@ -9,6 +9,6 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.6"
   }
 }
